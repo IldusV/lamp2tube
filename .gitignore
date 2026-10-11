@@ -1,0 +1,23 @@
+# Build directories (ESP-IDF and PlatformIO)
+build/
+.pio/
+
+# ESP-IDF Component Manager dependencies 
+# (managed_components are downloaded automatically using dependencies.lock)
+managed_components
+
+# Local ESP-IDF configuration files
+sdkconfig
+sdkconfig.old
+sdkconfig.*.old
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
